@@ -3,11 +3,11 @@ export default function LearnPage(){
         <div>
             <div>
                 <img src="/palette.svg" alt="Design" />
-                <p>Design</p>
+                <p>Design.</p>
             </div>
             <div>
-                <p>Figma</p>
-                <p>8 Hours</p>
+                <p>Figma.</p>
+                <p>8 Hours.</p>
             </div>
         </div>
     )

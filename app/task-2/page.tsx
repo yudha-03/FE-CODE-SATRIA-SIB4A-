@@ -1,6 +1,6 @@
 export default function task_2() {
     return (
-        <section className="bg-white h-screen flex flex-col justify-center items-center gap-6 p-4">
+        <section className="bg-white h-screen flex flex-col justify-center items-center gap-6 p-4 font-bold">
 
             <div className="flex gap-4">
 

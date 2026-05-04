@@ -1,4 +1,3 @@
-
 export default function LearnPage(){
     return(
         <section className="h-screen bg-gray-100 flex gap-4">

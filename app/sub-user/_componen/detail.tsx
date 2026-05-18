@@ -7,7 +7,7 @@ export default function Detail_card({img, tittle, qty, price} : {img : string ; 
       </div>
       <div className="flex gap-2 text-black font-bold">
         <h2 className="text-[20px]">{qty}</h2>
-        <h2 className="text-gray-700 text-[20px]">$ {price}</h2>
+        <h2 className="text-gray-700 text-[20px]">$ {price}k</h2>
       </div>
     </div>
   );

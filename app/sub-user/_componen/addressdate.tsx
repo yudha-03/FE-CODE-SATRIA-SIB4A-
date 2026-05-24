@@ -1,4 +1,4 @@
-export default function identityInfo({
+export default function IdentityInfo({
   location,
   date,
 }: {

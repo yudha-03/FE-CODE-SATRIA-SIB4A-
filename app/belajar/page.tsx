@@ -1,225 +1,93 @@
+import Sub from "./componen_belajar/sub"
+import Sub2 from "./componen_belajar/sub2"
 export default function belajar(){
   return(
-    <section className="flex flex-col text-black font-semibold gap-3">
-        <div className="flex gap-3"> {/*Jejer pertama*/}
-          <div className="bg-white h-75 w-82 rounded-xl p-5 flex flex-col justify-between"> {/*desain 1 */}
-            <div className="flex flex-col gap-2">
-                <div className="flex justify-between items-center">
-                  <img className="h-7" src="globe.svg" alt="globe" />
-                  <div className="flex border border-black w-17 rounded justify-center items-center">
-                    <p>Save</p>
-                    <img className="h-5" src="award.svg" alt="award" />
-                  </div>
+    <section className="flex gap-3">
+        <div className="bg-white h-180 w-70 rounded-xl p-4 flex flex-col text-black font-semibold gap-6">
+            <div>
+                <img className="h-9" src="moon.svg" alt="moon" />
+            </div>
+            <div className="flex flex-col gap-9">
+                <div className="flex flex-col gap-2">
+                    <p>Account</p>
+                    <Sub img="4dot.png" text="Overview"/>
+                    <Sub img="mood-empty.svg" text="Hire Freelancer"/>
+                    <Sub img="credit-card.svg" text="Payment"/>
+                    <Sub img="briefcase.svg" text="My Order"/>
+                    <Sub img="building-store.svg" text="Admin Setting"/>
                 </div>
-                <div className="flex gap-2">
-                  <p>Amazon</p>
-                  <p>5 days ago</p>
+                <hr className="border-t-2 border-black" />
+                <div className="flex flex-col gap-2">
+                    <p>Product</p>
+                    <Sub img="plus.svg" text="Add Organisation"/>
+                    <Sub img="briefcase.svg" text="My Products"/>
+                    <Sub img="stack-3.svg" text="Stocks"/>
                 </div>
-                <div>
-                  <p className="text-[25px]">Senior UI/UX Designer</p>
-                </div>
-                <div className="flex gap-2 text-white">
-                  <div className="bg-gray-600 w-20 flex rounded justify-center items-center">
-                    <p>Part-time</p>
-                  </div>
-                  <div className="bg-gray-600 w-26 flex rounded justify-center items-center">
-                    <p>Senior-level</p>
-                  </div>
+                <hr className="border-t-2 border-black" />
+                <div className="flex flex-col gap-2">
+                    <p>Admin</p>
+                    <Sub img="settings.svg" text="Account Setup"/>
+                    <Sub img="person.png" text="Manage User"/>
+                    <Sub img="bolt.svg" text="Logout"/>
                 </div>
             </div>
-            <hr className="border-t-2 border-black" />
-            <div className="flex justify-between items-center">
-                <div>
-                  <p>$120/hr</p>
-                  <p>San Francisco, CA</p>
-                </div>
-                <div className="bg-black h-8 w-25 flex justify-center items-center rounded">
-                  <p className="text-white">Apply now</p>
-                </div>
-            </div>
-          </div>
-          <div className="bg-white h-75 w-82 rounded-xl p-5 flex flex-col justify-between"> {/*desain 2 */}
-              <div className="flex flex-col gap-2">
-                <div className="flex justify-between items-center">
-                  <img className="h-7" src="globe.svg" alt="globe" />
-                  <div className="flex border border-black w-17 rounded justify-center items-center">
-                    <p>Save</p>
-                    <img className="h-5" src="award.svg" alt="award" />
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <p>Amazon</p>
-                  <p>5 days ago</p>
-                </div>
-                <div>
-                  <p className="text-[25px]">Senior UI/UX Designer</p>
-                </div>
-                <div className="flex gap-2 text-white">
-                  <div className="bg-gray-600 w-20 flex rounded justify-center items-center">
-                    <p>Part-time</p>
-                  </div>
-                  <div className="bg-gray-600 w-26 flex rounded justify-center items-center">
-                    <p>Senior-level</p>
-                  </div>
-                </div>
-            </div>
-            <hr className="border-t-2 border-black" />
-            <div className="flex justify-between items-center">
-                <div>
-                  <p>$120/hr</p>
-                  <p>San Francisco, CA</p>
-                </div>
-                <div className="bg-black h-8 w-25 flex justify-center items-center rounded">
-                  <p className="text-white">Apply now</p>
-                </div>
-            </div>
-          </div>
-          <div className="bg-white h-75 w-82 rounded-xl p-5 flex flex-col justify-between"> {/*desain 3 */}
-              <div className="flex flex-col gap-2">
-                <div className="flex justify-between items-center">
-                  <img className="h-7" src="globe.svg" alt="globe" />
-                  <div className="flex border border-black w-17 rounded justify-center items-center">
-                    <p>Save</p>
-                    <img className="h-5" src="award.svg" alt="award" />
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <p>Amazon</p>
-                  <p>5 days ago</p>
-                </div>
-                <div>
-                  <p className="text-[25px]">Senior UI/UX Designer</p>
-                </div>
-                <div className="flex gap-2 text-white">
-                  <div className="bg-gray-600 w-20 flex rounded justify-center items-center">
-                    <p>Part-time</p>
-                  </div>
-                  <div className="bg-gray-600 w-26 flex rounded justify-center items-center">
-                    <p>Senior-level</p>
-                  </div>
-                </div>
-            </div>
-            <hr className="border-t-2 border-black" />
-            <div className="flex justify-between items-center">
-                <div>
-                  <p>$120/hr</p>
-                  <p>San Francisco, CA</p>
-                </div>
-                <div className="bg-black h-8 w-25 flex justify-center items-center rounded">
-                  <p className="text-white">Apply now</p>
-                </div>
-            </div>
-          </div>
         </div>
-        <div className="flex gap-3"> {/*Jejer kedua*/}
-           <div className="bg-white h-75 w-82 rounded-xl p-5 flex flex-col justify-between"> {/*desain 1 */}
-              <div className="flex flex-col gap-2">
-                <div className="flex justify-between items-center">
-                  <img className="h-7" src="globe.svg" alt="globe" />
-                  <div className="flex border border-black w-17 rounded justify-center items-center">
-                    <p>Save</p>
-                    <img className="h-5" src="award.svg" alt="award" />
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <p>Amazon</p>
-                  <p>5 days ago</p>
-                </div>
-                <div>
-                  <p className="text-[25px]">Senior UI/UX Designer</p>
-                </div>
-                <div className="flex gap-2 text-white">
-                  <div className="bg-gray-600 w-20 flex rounded justify-center items-center">
-                    <p>Part-time</p>
-                  </div>
-                  <div className="bg-gray-600 w-26 flex rounded justify-center items-center">
-                    <p>Senior-level</p>
-                  </div>
+        <div className="bg-white h-180 w-18 rounded-xl flex flex-col p-4 gap-6 items-center">
+            <div>
+                <div className="flex justify-center p-1 bg-red-600 rounded ">
+                  <img className="h-8" src="moon.svg" alt="gambar" />
                 </div>
             </div>
-            <hr className="border-t-2 border-black" />
-            <div className="flex justify-between items-center">
-                <div>
-                  <p>$120/hr</p>
-                  <p>San Francisco, CA</p>
+            <div className="flex flex-col gap-12">
+                <div className="flex flex-col gap-3">
+                    <Sub2 img="4dot.png" />
+                    <Sub2 img="mood-empty.svg" />
+                    <Sub2 img="credit-card.svg" />
+                    <Sub2 img="briefcase.svg" />
+                    <Sub2 img="building-store.svg" />
                 </div>
-                <div className="bg-black h-8 w-25 flex justify-center items-center rounded">
-                  <p className="text-white">Apply now</p>
+                <hr className="border-t-2 border-black" />
+                <div className="flex flex-col gap-3">
+                    <Sub2 img="plus.svg" />
+                    <Sub2 img="briefcase.svg" />
+                    <Sub2 img="stack-3.svg" />
+                </div>
+                <hr className="border-t-2 border-black" />
+                <div className="flex flex-col gap-3">
+                    <Sub2 img="settings.svg" />
+                    <Sub2 img="person.png" />
+                    <Sub2 img="bolt.svg" />
                 </div>
             </div>
-          </div>
-          <div className="bg-white h-75 w-82 rounded-xl p-5 flex flex-col justify-between"> {/*desain 2 */}
+        </div>
+        <div className="bg-white p-3 h-75 w-80 rounded-xl flex flex-col gap-4 text-black font-semibold">
+            <div className="bg-sky-100 p-8 rounded-xl flex flex-col gap-3">
+                <div>
+                    <p>Web Design</p>
+                </div>
+                <div>   
+                    <p>Crafts engaging, user-friendly websites</p>
+                </div>
                 <div className="flex flex-col gap-2">
-                <div className="flex justify-between items-center">
-                  <img className="h-7" src="globe.svg" alt="globe" />
-                  <div className="flex border border-black w-17 rounded justify-center items-center">
-                    <p>Save</p>
-                    <img className="h-5" src="award.svg" alt="award" />
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <p>Amazon</p>
-                  <p>5 days ago</p>
-                </div>
-                <div>
-                  <p className="text-[25px]">Senior UI/UX Designer</p>
-                </div>
-                <div className="flex gap-2 text-white">
-                  <div className="bg-gray-600 w-20 flex rounded justify-center items-center">
-                    <p>Part-time</p>
-                  </div>
-                  <div className="bg-gray-600 w-26 flex rounded justify-center items-center">
-                    <p>Senior-level</p>
-                  </div>
+                    <div className="flex gap-2">
+                        <div className="bg-gray-300 w-30 rounded-3xl p-1 flex justify-center items-center">
+                          <p>Landing Page</p>
+                        </div>
+                        <div className="bg-gray-300 w-23 rounded-3xl p-1 flex justify-center items-center">
+                          <p>Website</p>
+                        </div>
+                    </div>
+                    <div className="bg-gray-300 w-30 rounded-3xl p-1 flex justify-center items-center">
+                      <p>One Page</p>
+                    </div>
                 </div>
             </div>
-            <hr className="border-t-2 border-black" />
-            <div className="flex justify-between items-center">
-                <div>
-                  <p>$120/hr</p>
-                  <p>San Francisco, CA</p>
-                </div>
-                <div className="bg-black h-8 w-25 flex justify-center items-center rounded">
-                  <p className="text-white">Apply now</p>
+            <div className="flex gap-2 items-center">
+                <p>Explore</p>
+                <div className="bg-gray-300 p-1 rounded ml-auto">
+                  <img className="h-4" src="dots-vertical.svg" alt="" />
                 </div>
             </div>
-          </div>
-          <div className="bg-white h-75 w-82 rounded-xl p-5 flex flex-col justify-between"> {/*desain 3 */}
-                <div className="flex flex-col gap-2">
-                <div className="flex justify-between items-center">
-                  <img className="h-7" src="globe.svg" alt="globe" />
-                  <div className="flex border border-black w-17 rounded justify-center items-center">
-                    <p>Save</p>
-                    <img className="h-5" src="award.svg" alt="award" />
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <p>Amazon</p>
-                  <p>5 days ago</p>
-                </div>
-                <div>
-                  <p className="text-[25px]">Senior UI/UX Designer</p>
-                </div>
-                <div className="flex gap-2 text-white">
-                  <div className="bg-gray-600 w-20 flex rounded justify-center items-center">
-                    <p>Part-time</p>
-                  </div>
-                  <div className="bg-gray-600 w-26 flex rounded justify-center items-center">
-                    <p>Senior-level</p>
-                  </div>
-                </div>
-            </div>
-            <hr className="border-t-2 border-black" />
-            <div className="flex justify-between items-center">
-                <div>
-                  <p>$120/hr</p>
-                  <p>San Francisco, CA</p>
-                </div>
-                <div className="bg-black h-8 w-25 flex justify-center items-center rounded">
-                  <p className="text-white">Apply now</p>
-                </div>
-            </div>
-          </div>
         </div>
     </section>
   )
